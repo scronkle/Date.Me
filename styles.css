@@ -149,3 +149,19 @@ button {
 .button:active {
   top: 1px;
 }
+
+#tag {
+  position: absolute;
+  right: 0.5rem;
+  margin right: 0.5rem;
+}
+
+#tag a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+#tag span {
+  font-size: 0.5rem;
+  color: var(--black);
+}

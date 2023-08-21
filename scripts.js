@@ -14,7 +14,7 @@
 const dates = [
   {title:"template", text:"this is a test object, you shouldn't see this lmao", social:"leastSocial", energy:"mediumSocial"},
   {title:"beachWalk", text:"go for a walk along the beach", social:"leastSocial", energy:"leastEnergy", tags:['healthy']},
-  {title: "bar", text: "go to the pub (or bar or whatevs)", social:"mostSocial", energy:"mostEnergy", tags:[]},
+  {title:"bar", text: "go to the pub (or bar or whatevs)", social:"mostSocial", energy:"mostEnergy", tags:[]},
   {title:"paintAndSip", text:"do a Paint and Sip! Or some such thing.", social:"mostSocial", energy:"mediumEnergy", tags:['art']},
   {title:"restaurant", text:"go to a restaurant! New or liked.", social:"mediumSocial", energy:"leastEnergy", tags:[]},
   {title:"bushWalk", text:"go for a nature walk/bush walk", social:"leastSocial", energy:"mediumEnergy", tags:['healthy']},
@@ -46,6 +46,12 @@ const dates = [
   {title:"videoGame", text:"just play some video games together, if ur into it", social:"leastSocial", energy:"leastEnergy", tags:[]},
   {title:"albumParty", text:"have an album listen party where you both bring an album to critique", social:"leastSocial", energy:"leastEnergy", tags:[]},
   {title:"localTourist", text:"go find something local that a tourist would like to see", social:"leastSocial", energy:"mediumEnergy"},
+  {title:"volunteer", text:"volunteer! go plant some trees or something", social:"mostSocial", energy:"mostEnergy", tags:[]},
+  {title:"firstDate", text:"recreate our first date (we can spice it up if it's boring", social:"leastSocial", energy:"mediumEnergy", tags:[]},
+  {title: "pizzaTime", text:"make a fucked pizza together (or a good one i guess", social: "leastSocial", energy: "leastEnergy", tags:['healthy']},
+  {title: "glowieSpotting", text:"go glowie spotting! sit in a public place and see how many feds walk by", social: "mediumSocial", energy: "leastEnergy", tags["don't let the government know"]},
+  {title: "iceSkatinge", text:"go ice skating! it would be so embarrassing if you'd never been :s", social: "mediumSocial", energy: "mediumEnergy", tags["healthy"]},
+  
 ]
 
 
@@ -58,7 +64,6 @@ function getDate() {
   let datePick = datePool[randomIndex]
   let dateText = datePick.text
   document.getElementById('result').innerHTML = dateText
-  console.log(document.getElementById('social1').getAttribute("checked"))
 }
 
 function getCheckedParams(inputArray) {
@@ -100,10 +105,8 @@ function initDateButton() {
 function selectionToggle() {
   if (this.getAttribute("checked") === "true") {
     this.setAttribute("checked", "false")
-    console.log('toggle: False')
   } else {
     this.setAttribute("checked", "true")
-    console.log("toggled: TRUE")
   }
 }
 
