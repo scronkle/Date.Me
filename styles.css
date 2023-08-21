@@ -13,11 +13,16 @@
   font-size: 16px;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   background: rgb(219,169,206);
   background: linear-gradient(180deg, rgba(219,169,206,1) 0%, rgba(152,150,200,1) 100%);
   height: 100vh;
   overflow: hidden;
+  margin: 0;
 }
 
 h1 {
@@ -99,4 +104,11 @@ button {
   background: linear-gradient(180deg, rgba(103,81,97,1) 0%, rgba(220,170,207,1) 100%);
   padding: 1rem;
   filter: drop-shadow(0px 0px 5px var(--accent))
+}
+
+#deco {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  z-index: -1;
 }
