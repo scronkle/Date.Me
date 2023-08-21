@@ -36,6 +36,7 @@ h2 {
   margin: 0;
   text-align: center;
   font-style: italic;
+  color: var(--text);
 }
 
 h3 {
@@ -96,6 +97,7 @@ button {
 #maybe {
   width: 15vw;
   justify-self: start;
+  padding-left: 1rem;
 }
 
 #result {
