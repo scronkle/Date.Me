@@ -83,7 +83,8 @@ button {
   width: 30vw;
   border-radius: 10px;
   background-color: var(--accent);
-  filter: drop-shadow(2px 2px 4px var(--accent))
+  filter: drop-shadow(2px 2px 4px var(--accent));
+  -webkit-appearance: none;
 }
 
 #resultsBox {
