@@ -29,7 +29,13 @@ h1 {
   font-size: 3rem;
   color: var(--accent);
   text-align: center;
-  filter: drop-shadow(0px 0px 5px var(--accent))
+  filter: drop-shadow(0px 0px 5px var(--accent));
+  margin-bottom: 1rem;
+}
+h2 {
+  margin: 0;
+  text-align: center;
+  font-style: italic;
 }
 
 h3 {
@@ -112,4 +118,32 @@ button {
   width: 100%;
   bottom: 0%;
   z-index: -1;
+}
+
+.button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  box-shadow: 0 0 10px 40px white;
+}
+
+.button:active:after {
+  box-shadow: 0 0 0 0 white;
+  position: absolute;
+  border-radius: 4em;
+  left: 0;
+  top:0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.button:active {
+  top: 1px;
 }

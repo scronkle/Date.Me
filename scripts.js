@@ -116,4 +116,3 @@ function initSelections() {
 
 initDateButton()
 initSelections()
-
