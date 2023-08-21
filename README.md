@@ -1,4 +1,4 @@
-# date.me
+# ~~date.me~~ **Bumbus**
 
 ## a webapp for the chronically scatterbrained romantics
 
