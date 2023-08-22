@@ -60,7 +60,7 @@ const dates = [
   {title:"homeTrivia", text:"find some home trivia to quiz each other. or make some!", social:"leastSocial", energy:"leastEnergy", tags:['home']},
   {title:"bobRoss", text:"have a Bob Ross paint along <3", social:"leastSocial", energy:"mediumEnergy", tags:['art', 'home']},
   {title:"houseDrink", text:"honestly just get drunk together. try some new alcohol",  social:"leastSocial", energy:"mostEnergy", tags:['home']},
-  {title:"datePlanner", text:"plan a future date (great if you're broke or busy rn", social:"leastSocial", energy:"leastEnergy", tags:['home', 'healthy']},
+  {title:"datePlanner", text:"plan a future date (great if you're broke or busy rn)", social:"leastSocial", energy:"leastEnergy", tags:['home', 'healthy']},
   {title:"loveLetters", text:"write each other a love letter", social:"leastSocial", energy:"leastEnergy", tags:['healthy', 'home']},
   {title:"presentations", text:"prepare and present presentations about something interesting for each other", social:"leastSocial", energy:"mediumEnergy", tags:['home']},
   {title:"craftDate", text:"have a craft date", social:"leastSocial", energy:"mediumEnergy", tags:['home']},

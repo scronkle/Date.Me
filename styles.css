@@ -85,6 +85,7 @@ button {
   background-color: var(--accent);
   filter: drop-shadow(2px 2px 4px var(--accent));
   -webkit-appearance: none;
+  appearance: none;
 }
 
 #resultsBox {
