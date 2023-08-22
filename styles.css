@@ -70,9 +70,7 @@ h3 {
   text-align: center;
 }
 
-.checkbox span {
- 
-}
+
 
 #buttonDiv {
   text-align: center;
@@ -155,7 +153,7 @@ h3 {
 #tag {
   position: absolute;
   right: 0.5rem;
-  margin right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 #tag a {
