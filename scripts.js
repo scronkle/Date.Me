@@ -66,7 +66,9 @@ const dates = [
   {title:"craftDate", text:"have a craft date", social:"leastSocial", energy:"mediumEnergy", tags:['home']},
   {title:"tieDye", text:"tie-dye some clothes or maybe a bag?", social:"leastSocial", energy:"mediumEnergy", tags:['art', 'home']},
   {title:"peotry", text:"write each other a poem or 2 (this will be SO cringe, so buckle up)", social:"leastSocial", energy:"leastEnergy", tags:['home']},
-  {title:"", text:"", social:"", energy:"", tags:[]},
+  {title:"lawnBowls", text:"go lawn bowls!", social:"mediumSocial", energy:"leastEnergy", tags:[]},
+  {title:"bowling", text:"go bowling! :D", social:"mediumSocial", energy:"mediumEnergy", tags:[]},
+  {title:"", text:"", social:"", energy:"", tags:[]}
 ]
 
 
@@ -129,7 +131,7 @@ function getSuitableDates(datesArray, parameters) {
 }
 
 function initDateButton() {
-  document.getElementById('resultButton').addEventListener("click", getDate)
+  document.getElementById('resultButton').addEventListener("pointerdown", getDate)
 }
 
 function selectionToggle() {
