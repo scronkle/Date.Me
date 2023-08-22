@@ -145,7 +145,7 @@ function selectionToggle() {
 function initSelections() {
   const selectionArray = document.getElementsByClassName("checkbox")
   for (let i=0; i<selectionArray.length; i++) {
-    selectionArray[i].addEventListener("click", selectionToggle)
+    selectionArray[i].addEventListener("pointerdown", selectionToggle)
   }
 }
 
