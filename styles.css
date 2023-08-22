@@ -85,6 +85,7 @@ h3 {
   background-color: var(--accent);
   filter: drop-shadow(2px 2px 4px var(--accent));
   margin: 1rem auto;
+  cursor: pointer;
 }
 
 #resultsBox {
